@@ -4,12 +4,6 @@ void main(List<String> arguments) {
   user.carFunction(1, 'Ford', 'Red', '500cc', 250);
   print('');
   user.carFunction(2, 'Ferrari', 'Black', '1000cc', 600);
-
-  print('');
-  user.carFunction(2, 'Ferrari', 'Black', '1000cc', 600);
-
-  print('');
-  user.carFunction(2, 'Ferrari', 'Black', '1000cc', 600);
 }
 
 class Car {
