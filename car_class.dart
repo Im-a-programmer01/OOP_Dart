@@ -14,13 +14,13 @@ class Car {
   int speed = 0;
 
   void carFunction(int id, String model, String color, String cc, int speed) {
-    //Starting
+    //Start
     print('The model of the car is $model and a color of $color at $cc power');
 
-    //Acceleration
+    //Accelerate
     print('Current Speed: $speed kph');
 
-    //Breaking
+    //Stop
     if (speed >= 400) {
       print('Now breaking...');
     } else {
